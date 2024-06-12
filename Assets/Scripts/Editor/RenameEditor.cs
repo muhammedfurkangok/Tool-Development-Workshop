@@ -16,7 +16,7 @@ public class RenameEditor : EditorWindow
     #endregion
     // #k shift k ye basınca calissin, / yeni sekme
     
-    [MenuItem("RuntimeEditor/ShowIndex #Z")]
+    [MenuItem("Tool/ShowIndex ")]
     public static void ShowIndex()
     {
         GetWindow<RenameEditor>( true);
